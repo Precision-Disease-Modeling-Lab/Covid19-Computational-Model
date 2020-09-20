@@ -6,7 +6,6 @@ import networkx as nx
 import numpy as np
 import random
 from scipy import stats
-# from tqdm import tqdm
 # import seaborn as sns
 import pickle
 import os
@@ -404,7 +403,7 @@ def run_simulation(G, T_max=100, verbose = False):
         update_infection_details(G, -1, seed, t=-1)
 
     logStatus={}
-    for t in tqdm(range(T_max)): 
+    for t in range(T_max): 
         #print('---- Day {} ----'.format(t))
 
         # find all pateunt which incubaion ends today ( @ t)
