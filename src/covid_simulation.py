@@ -1,13 +1,13 @@
 # covid simulation
 
 import networkx as nx
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mticker
+# import matplotlib.pyplot as plt
+# import matplotlib.ticker as mticker
 import numpy as np
 import random
 from scipy import stats
-from tqdm import tqdm
-import seaborn as sns
+# from tqdm import tqdm
+# import seaborn as sns
 import pickle
 import os
 
