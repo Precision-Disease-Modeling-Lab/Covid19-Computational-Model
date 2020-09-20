@@ -12,39 +12,53 @@ import pickle
 import os
 
 
+contry = 'Italy'
 infection_p0 = 0.2
 mean_num_of_neighbors = 15
-mean_family_size=4
 num_Of_age_groups=4
-#basic_p=0.02
-
-age_groups_details=[{'id' : 1, 'label': '0-14',  'precentage' :  27.73, 'loc' : 7,  'scale' : 7.}, 
-                     {'id' : 2, 'label': '15-24', 'precentage' :  15.52, 'loc' : 20, 'scale' : 5.},  
-                     {'id' : 3, 'label': '25-34', 'precentage' :  14.2 , 'loc' : 30, 'scale' : 5.},  
-                     {'id' : 4, 'label': '35-44', 'precentage' :  12.8 , 'loc' : 40, 'scale' : 5.},  
-                     {'id' : 5, 'label': '45-54', 'precentage' :  10.0 , 'loc' : 50, 'scale' : 5.},  
-                     {'id' : 6, 'label': '55-64', 'precentage' :  9.1  , 'loc' : 60, 'scale' : 5.}, 
-                     {'id' : 7, 'label': '65+',   'precentage' :  10.23, 'loc' : 75, 'scale' : 7}]
 
 
 
-infection_by_age =   {1: {'age_group': [0,14], 'precentage' : 27.73,  
-                          'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
-                          'asymptomatic_rate' : 0.8, 
-                          'death_rate' : 0.0},
-                      2: {'age_group': [15,34],  'precentage' : 27.0,  
-                          'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
-                          'asymptomatic_rate' : 0.6, 
-                          'death_rate' : 0.0015},
-                      3: {'age_group': [35,54],  'precentage' : 22.8,  
-                          'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
-                          'asymptomatic_rate' : 0.4, 
-                          'death_rate' : 0.01},
-                      4: {'age_group': [55,100], 'precentage' : 19.33,  
-                          'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]),
-                          'asymptomatic_rate': 0.2, 
-                          'death_rate' : 0.24}
-                    }
+
+if contry=='Israel' : 
+    mean_family_size=3.32 # Israel
+    infection_by_age =   {1: {'age_group': [0,14], 'precentage' : 27.73,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.8, 
+                            'death_rate' : 0.0},
+                        2: {'age_group': [15,34],  'precentage' : 27.0,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.6, 
+                            'death_rate' : 0.0015},
+                        3: {'age_group': [35,54],  'precentage' : 22.8,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.4, 
+                            'death_rate' : 0.01},
+                        4: {'age_group': [55,100], 'precentage' : 19.33,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]),
+                            'asymptomatic_rate': 0.2, 
+                            'death_rate' : 0.24}
+                        }
+
+elif contry=='Italy': 
+    mean_family_size=2.38  # Italy
+    infection_by_age =   {1: {'age_group': [0,14], 'precentage' : 13.6,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.8, 
+                            'death_rate' : 0.0},
+                        2: {'age_group': [15,24],  'precentage' : 9.61,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.6, 
+                            'death_rate' : 0.0015},
+                        3: {'age_group': [25,54],  'precentage' : 41.82,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]), 
+                            'asymptomatic_rate' : 0.4, 
+                            'death_rate' : 0.01},
+                        4: {'age_group': [55,100], 'precentage' : 34.98,  
+                            'p' : dict([(x,0.1) for x in range(1,num_Of_age_groups+1)]),
+                            'asymptomatic_rate': 0.2, 
+                            'death_rate' : 0.24}
+                        }
 ## build_population
 
 def is_free_node(G,node): 
