@@ -32,7 +32,7 @@ family_size_list=sorted([int(np.round(x)) for x in np.random.normal(loc=mean_fam
 
 
 
-for group_index, family_size in enumerate(tqdm(family_size_list)): 
+for group_index, family_size in enumerate(family_size_list): 
     seed = find_free_node(G, min_neighbors=family_size)
     if not seed: 
         print('no free node was found for family size of {}'.format(family_size))
@@ -66,7 +66,7 @@ age_samples = list(np.random.choice([x for x in age_distribution_model.rvs(round
 
 # assign age for families
 family_list=set([y['group'] for node, y in G.nodes(data=True) if 'group' in y])
-for group_idx in tqdm(family_list): 
+for group_idx in family_list: 
     family=select_per_attr(G, 'group', group_idx)
     family_len=len(family)
     if family_len > 2 : 

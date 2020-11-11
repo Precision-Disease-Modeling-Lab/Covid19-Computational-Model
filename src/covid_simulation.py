@@ -11,7 +11,7 @@ import pickle
 import os
 
 
-contry = 'Italy'
+contry = 'Israel'
 infection_p0 = 0.2
 mean_num_of_neighbors = 15
 num_Of_age_groups=4
