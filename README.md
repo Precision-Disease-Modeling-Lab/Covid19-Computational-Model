@@ -1,6 +1,6 @@
 # Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population
 
-This is a repository which include the source code for the paper 'Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population'. 
+This is a repository which include the source code for the paper <a hfer='https://royalsocietypublishing.org/doi/10.1098/rsob.200213'>'Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population'</a>. 
 
 
 
@@ -8,10 +8,10 @@ This is a repository which include the source code for the paper 'Age separation
 <table style="width:100%">
   <tr>
     <td>
-      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Connections between 30 subjects.png" width="400" height="400">
+      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Isarel/Connections between 30 subjects.png" width="400" height="400">
     </td>
     <td>
-      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Population%20Distribution.png" width="300" height="300">
+      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Dist. by age group - State 0.png" width="300" height="300">
     </td>
   </tr>
 </table>
@@ -36,12 +36,17 @@ allowing social connections but still strong protection for the older population
 <table style="width:100%">
   <tr>
   <td>
-    <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/total%20death.png" width="1000" height="400">
+    <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Infections_span.png" width="1000" height="400">
   </td>
   </tr>
   <tr>
   <td>
-    <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Infections%20Rate.png" width="1000" height="400">
+    <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Total_Deceased_span.png" width="1000" height="400">
+  </td>
+  </tr>
+  <tr>
+  <td>
+    <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Total Death - split by age.png" width="1000" height="400">
   </td>
   </tr>
 </table>
