@@ -8,7 +8,7 @@ This is a repository which include the source code for the paper 'Age separation
 <table style="width:100%">
   <tr>
     <td>
-      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Connections%20between%2030%20subjects.png" width="400" height="400">
+      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Connections between 30 subjects.png" width="400" height="400">
     </td>
     <td>
       <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Population%20Distribution.png" width="300" height="300">
