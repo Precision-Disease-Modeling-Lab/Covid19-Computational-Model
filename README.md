@@ -1,6 +1,6 @@
 # Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population
 
-This is a repository which include the source code for the paper <a hfer='https://royalsocietypublishing.org/doi/10.1098/rsob.200213'>'Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population'</a>. 
+This is a repository which include the source code for the paper <a href='https://royalsocietypublishing.org/doi/10.1098/rsob.200213'>'Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population'</a>. 
 
 
 
@@ -8,7 +8,7 @@ This is a repository which include the source code for the paper <a hfer='https:
 <table style="width:100%">
   <tr>
     <td>
-      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Isarel/Connections between 30 subjects.png" width="400" height="400">
+      <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Connections between 30 subjects.png" width="400" height="400">
     </td>
     <td>
       <img src="https://github.com/Precision-Disease-Modeling-Lab/covid19_computational_model/blob/master/figures/Israel/Dist. by age group - State 0.png" width="300" height="300">
