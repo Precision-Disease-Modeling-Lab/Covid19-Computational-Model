@@ -1,8 +1,9 @@
 # Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population
 
+### Liron Mizrahi, Huda Adwan Shekhidem and Shani Stern
+#### Published:<b>11 November 2020</b> <a href='https://doi.org/10.1098/rsob.200213'>https://doi.org/10.1098/rsob.200213</a>
+
 This is a repository which include the source code for the paper <a href='https://royalsocietypublishing.org/doi/10.1098/rsob.200213'>'Age separation dramatically reduces COVID-19 mortality rate in a computational model of a large population'</a>. 
-
-
 
 
 <table style="width:100%">
